@@ -24,5 +24,10 @@ app.get('/bears/:id', (request, response) =>{
 
 });
 
+app.post('/bears', (request, response) => {
+  response.send('hey mister POSTman');
+
+});
+
 
 app.listen(3000, () => console.log('The system is ALIVE!'))
