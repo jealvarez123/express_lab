@@ -9,6 +9,13 @@ const bears = [
   {id: 5, name: 'Asian black bear' , url: 'https://en.wikipedia.org/wiki/Asian_black_bear' }
 ];
 
+const region = [
+  {id:1, location: 'Asia', url: ''},
+  {id:2, location: 'North America', url: ''},
+  {id:3, location: 'Asia', url: ''},
+  {id:4, location: 'Asia', url: ''},
+]
+
 
 
 app.get('/bears', (request, response) => {
